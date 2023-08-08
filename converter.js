@@ -13,6 +13,7 @@ function convertTemp(value, fromUnit, toUnit) {
     }
     return value;
   }
+
   if (fromUnit === 'f') {
     if (toUnit === 'c') {
       return (value - 32) * 5 / 9;
